@@ -1,0 +1,32 @@
+name: calculator
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  auto_size_text: ^0.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  fonts:
+    - family: Qanelas
+      fonts:
+        - asset: fonts/Qanelas-ExtraBoldItalic.ttf
+          style: italic
+          weight: 800
+        - asset: fonts/Qanelas-MediumItalic.ttf
+          style: italic
+          weight: 500
+        - asset: fonts/Qanelas-Regular.ttf
+        - asset: fonts/Qanelas-Medium.ttf
+          weight: 500
